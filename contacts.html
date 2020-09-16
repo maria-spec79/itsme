@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Это я</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>	
+
+	<body>
+	<div class="main__container">	
+
+		<div class="header">		
+			<a href="index.html" class="link__photo"><img src="images/log_person.png" width="50" height="49" class="link__logo"></a>
+			<a href="aboutme.html" class="link">Обо мне</a>
+			<a href="contacts.html" class="link">Контакты</a>
+		</div>
+
+		<p>
+			<h2 class="contacts__title">Контакты</h2>		
+		</p>
+
+			<form action="">
+  				<fieldset class="field">
+    			<div class="contacts__text">
+    	  			Вы уже немного обо мне узнали, а теперь и я хочу узнать немного о Вас. Со мной можно связаться по электронной почте <b>maria.publisher@yandex.ru</b> или заполнить эту нехитрую форму
+    			</div>  
+    
+				<div>
+					<input type="text" class="datas" id="text" placeholder="Введите Ваше имя" autofocus required>
+				</div>
+
+				<div>
+    				Вы...
+					<label>
+      					<input type="radio" name="gender">Мужчина
+    				</label>
+    
+    				<label>
+      					<input type="radio" name="gender">Женщина
+    				</label>  
+				</div>
+
+
+				<div>
+					<input type="email" class="datas" id="email" placeholder="Укажите адрес Вашей эл. почты" required>
+				</div>
+
+				<div>
+    				<label for="photo">Прикрепите Вашу фотографию</label>
+    				<input type="file" accept="image/*">
+				</div>
+	
+
+				<div>
+					<textarea class="datas" placeholder="Что бы Вы хотели мне сказать?" cols="30" rows="10"></textarea>
+				</div>
+		
+	
+				<div>
+					<input type="submit" class="button" value="Отправить">
+				</div>
+
+				  </fieldset>
+			</form>
+
+	</div>
+	</body>
+</html>

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Playfair+Display:wght@700;900&display=swap');
+
+.main__container {
+	width: 1200px;
+	background: rgb(141, 194, 173);
+	padding-bottom: 50px;
+}
+
+.header {
+	background: rgb(0, 95, 44);
+	padding: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+}
+
+.link__logo {
+	border-radius: 50%;
+}
+
+.link__photo {
+	margin-right: 100px;
+	display: block;
+	width: 50px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+	margin-right: 100px;
+	margin-left: 100px;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.link:hover {
+	text-shadow: 5px 5px 5px silver;
+}
+
+.link__photo:hover {
+	box-shadow: 0 5px 15px silver;
+}
+
+.content {
+	padding-top: 70px;
+}
+
+.main__title {
+	font-family: 'Playfair Display', serif;
+	font-size: 70px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.main__photo {
+	padding-left: 261px;
+	}
+
+.main__text {
+	font-family: 'Arsenal', sans-serif;
+	font-size: 27px;
+	line-height: 40px;
+	font-weight: 400;
+	padding: 30px 50px;
+}
+
+.about__title {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.about__menu {
+	padding-left: 20px;
+}
+
+.about__menu-list {
+	list-style-image: url('images/double_arrow_18.png');
+}
+
+.about__menu-item {
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
+	font-weight: 700;
+	color: rgb(0, 95, 44);
+	padding-left: 20px;
+}
+
+.about__menu-item:hover {
+	text-shadow: 5px 5px 5px white;
+}
+
+.about__subtitle {
+	font-family: 'Playfair Display', serif;
+	font-size: 45px;
+	font-weight: 700;
+	padding-left: 30px;
+}
+
+.about__text {
+	font-family: 'Arsenal', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 12px;
+	padding-left: 30px;
+}
+
+.about__text-link {
+	font-size: 27px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.about__text-link:hover {
+	text-shadow: 5px 5px 5px white;
+}
+
+.about__musicians {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 15px;
+}
+
+.musicians {
+	border: 1px solid white;	
+}
+
+.musicians_middle {
+	transform: translate(-40px, -70px);
+}
+
+.about__books {
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.book {
+	border: 1px solid white;
+	transform: rotate(-10deg);
+}
+
+.book_middle-left {
+	transform: translate(150px, -70px) rotate(15deg);
+}
+
+.book_middle-right {
+	transform: translate(-180px, -70px) rotate(15deg);
+}
+
+.go__up {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: rgb(0, 95, 44);
+	padding-left: 50px;
+}	
+
+.go__up:hover {
+	text-shadow: 5px 5px 5px white;
+}
+
+
+.contacts__title {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.field {
+	width: 700px;
+	border-radius: 25px;
+	background: rgb(0, 165, 118);
+	position: relative;
+	left: 250px;
+	border: none;
+	padding: 15px;
+}
+
+.contacts__text {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: 'Arsenal', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.datas {
+	width: 99%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.button {
+	margin-top: 10px;
+	border: none;
+	padding: 5px;
+	cursor: pointer;	
+}
+
+.button:hover {
+	background-color: silver;
+}
